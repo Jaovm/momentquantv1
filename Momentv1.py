@@ -460,7 +460,7 @@ def main():
 
     # --- SIDEBAR ---
     st.sidebar.header("1. Universo de Ativos")
-    default_univ = "ITUB3.SA, TOTS3.SA, WEGE3.SA, PRIO3.SA, VALE3.SA, PETR4.SA, BBAS3.SA, BPAC11.SA, EQTL3.SA, RENT3.SA, RADL3.SA, LREN3.SA, B3SA3.SA, VIVT3.SA, CMIG4.SA, ELET3.SA, SUZB3.SA, JBSS3.SA, CSAN3.SA, RDOR3.SA"
+    default_univ = "ITUB3.SA, TOTS3.SA, MDIA3.SA, TAEE3.SA, BBSE3.SA, WEGE3.SA, PSSA3.SA, EGIE3.SA, B3SA3.SA, VIVT3.SA, AGRO3.SA, PRIO3.SA, BBAS3.SA, BPAC11.SA, SBSP3.SA, SAPR4.SA, CMIG3.SA, UNIP6.SA, FRAS3.SA, CPFE3.SA"
     ticker_input = st.sidebar.text_area("Tickers (.SA)", default_univ, height=120)
     tickers = [t.strip().upper() for t in ticker_input.split(',') if t.strip()]
 
